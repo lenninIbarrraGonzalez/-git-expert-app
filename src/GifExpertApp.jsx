@@ -6,6 +6,8 @@ export const GifExpertApp = () => {
     const [categories, setCategories] = useState(['One Punch', 'Dragon Ball']);
 
     const onAddCategory = (onNewCategory) => {
+        const index = categories.findIndex((categorie) => categorie === onNewCategory);
+        if(index > -1) return;
         setCategories([...categories, onNewCategory]);
     }
 
