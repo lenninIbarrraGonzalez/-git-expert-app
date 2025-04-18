@@ -2,6 +2,10 @@
 
 ![GifExpertApp Screenshot](src/assets/img/screen-proyect.png)
 
+Ver despliegues:
+
+- https://gifcardexpert.netlify.app/
+
 **GifExpertApp** es una aplicación construida con React que permite buscar y visualizar GIFs animados utilizando la API de Giphy. Ideal para practicar conceptos de React como componentes, hooks personalizados y manejo de estado.
 
 ---
